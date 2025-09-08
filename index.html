@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Happy Birthday — Ava</title>
+    <meta name="theme-color" content="#1a1635" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Noto+Sans+KR:wght@500;700&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+    <script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "three/": "https://aistudiocdn.com/three@^0.180.0/"
+  }
+}
+</script>
+    <style>
+      body {
+        font-family: "Poppins", "Noto Sans KR", "Noto Sans JP", system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+      @keyframes skyPulse {
+        0% { background-position: 40% 30%; }
+        50% { background-position: 60% 20%; }
+        100% { background-position: 40% 30%; }
+      }
+      .sky-pulse {
+        background-size: 200% 200%;
+        animation: skyPulse 22s ease-in-out infinite;
+      }
+    </style>
+</head>
+<body class="bg-[#0b0a1a] text-[#eee8ff] overflow-hidden">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
